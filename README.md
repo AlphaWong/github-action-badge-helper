@@ -1,2 +1,5 @@
 # github-action-badge-helper
-Created with CodeSandbox
+## demo
+![demo](https://i.imgur.com/jUxxkOs.gif)
+## live
+[https://alphawong.github.io/github-action-badge-helper/](https://alphawong.github.io/github-action-badge-helper/)
