@@ -6,9 +6,9 @@
       return;
     }
     const [owner, repository] = repo.split("https://github.com/")[1].split("/");
-    const preview = `https://github.com/${owner}/${repository}/workflows/${encodeURIComponent(
+    const preview = `![workflow name](https://github.com/${owner}/${repository}/workflows/${encodeURIComponent(
       workflow
-    )}/badge.svg?branch=master`;
+    )}/badge.svg?branch=master)`;
     document.getElementById("code").textContent = preview;
   };
   document.getElementById("generate").onclick = generate;
