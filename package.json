@@ -1,0 +1,24 @@
+{
+  "name": "github-action-badge-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlphaWong/github-action-badge-helper.git"
+  },
+  "keywords": [],
+  "author": "Alpha WONG",
+  "license": "MIT",
+  "homepage": "https://alphawong.github.io/github-action-badge-helper/",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
