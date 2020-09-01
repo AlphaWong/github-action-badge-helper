@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="google-site-verification" content="LoIHZpK9uhK7aJcToOWibmRSj5W1NZgu6kecXsBWzSQ" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -18,7 +19,7 @@
   <body>
     <section>
       <section>
-        <form action="">
+        <form id="my-form" action="">
           <label for="repo">
             repo:
             <br />
@@ -31,18 +32,18 @@
             <input id="workflow" type="text" />
           </label>
           <br />
-          <label for="repo">
-            action:
-            <br />
-            <button id="generate" type="button">generate</button>
-            <button id="reset" type="reset">clear</button>
-          </label>
-        </form>
-        <section>
+                  <section>
           <label>code:</label>
           <br />
           <pre id="code"></pre>
         </section>
+          <label for="repo">
+            action:
+            <br />
+            <button id="generate" type="button">generate</button>
+            <button id="clear" type="button">clear</button>
+          </label>
+        </form>
       </section>
     </section>
   </body>
